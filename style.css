@@ -118,7 +118,7 @@ header p{font-size: 1.6em}
 }
 .ativo{
     display: block;
-    animation: transicao 0.5s ease;
+    animation: transicao 1.5s ease-in;
 }
 footer{
     width: 100%;
@@ -136,7 +136,7 @@ footer{
 
 /* RES PON SI VI DA DE */
 @keyframes transicao{
-    from{opacity: 0;}
+    from{filter: brightness(0);}
 }
 @media (max-width: 767px){
     body{
